@@ -40,6 +40,17 @@
     margin-right: 40px;
 }
 
+.feature .image {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.feature .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
 .reverse {
     flex-direction: row-reverse;
 }
@@ -112,3 +123,4 @@
 .footer {
     margin-top: 100px;
 }
+
