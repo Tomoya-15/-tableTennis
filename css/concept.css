@@ -1,9 +1,22 @@
 .container {
-    max-width: 1000px;
+    max-width: 1440px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
+.container h2 {    
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.container h3 {    
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    flex-direction: row;
+
+}
 .title {
     height: 310px;
     background-image: url(../images/concept/tableteniss1.png);
@@ -130,26 +143,62 @@
     margin-top: 100px;
 }
 
-@media screen and (min-widrh: 768px),print {
-    
+
+/*----------------------------------------
+Alternate
+----------------------------------------*/
 .alternate {
-        flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column-reverse;
 }
-    
+.alternate__body {
+    padding: 30px;
+    background: #f9fae9;
+}
+.alternate__ttl {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+.alternate__sttl {
+    display: block;
+    font-size: 10px;
+}
+.alternate__txt {
+    margin-top: 100px;
+    line-height: 1.7;
+}
+.alternate__thumb img {
+    max-width: none;
+    width: 100%;
+}
+
+.alternate-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+
+
+@media screen and (min-width: 768px),print {
+    .alternate {
+        flex-direction: row-reverse;
+    }
     .alternate__body {
         width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
     .alternate__thumb {
-        width: 50%;
+    width: 50%;
     }
-    .alternate._reverse{
+    .alternate._reverse {
         flex-direction: row;
     }
 }
+
 
 
 .media {
