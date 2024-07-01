@@ -12,3 +12,38 @@
     height: 600px;
     margin-top: 25px;
 }
+
+/* 追加 */
+.section {
+    font-family: "Noto Serif JP", serif;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 1.8;
+}
+
+.section p {
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-lv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.heading-lv2::after { /*罫線は必須なので親の疑似要素で設定する*/
+    display: block;
+    content: "";
+    display: block;
+    width: 40px;
+    margin-top: 20px; /*サブタイトルの有無に関わらず罫線上の余白を確保する*/
+    border-top: 1px solid;
+}
+.heading-lv2__main {
+    font-size: 28px;
+}
