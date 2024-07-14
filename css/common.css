@@ -31,6 +31,7 @@ img {
 
 /* "."はクラスを指定 */
 .header-inner {
+    font-family: "Noto Serif JP", serif;
     max-width: 1200px;
     height: 110px;
     margin-left: auto;

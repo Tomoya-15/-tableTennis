@@ -1,19 +1,5 @@
 @charset "utf-8";
 
-nav.floating {
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    background-color: #d0d0d0;
-}
-
-nav.floating {
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    background-color: #d0d0d0;
-}
-
 .first-view {
     height: calc(100vh - 110px);
     background-image: url(../images/index/images.jpg);
@@ -82,6 +68,7 @@ img {
 }
 
 .header-inner {
+    font-family: "Noto Serif JP", serif;
     max-width: 1200px;
     height: 110px;
     margin-left: auto;
