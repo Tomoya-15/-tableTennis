@@ -23,12 +23,13 @@
 }
 
 .first-view-text h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Noto Serif JP", serif;
     font-size: 56px;
     line-height: 72px;
 }
 
 .first-view-text p {
+    font-family: "Noto Serif JP", serif;
     font-size: 18px;
     margin-top: 20px;
 }
@@ -192,12 +193,6 @@ img {
 
 .footer-logo {
     display: block;
-    width: 235px;
-    margin-top: 90px;
-}
-
-.copyright {
-    font-size: 14pt;
-    font-weight: bold;
-    margin-top: 90px;
+    width: 230px;
+    margin-top: 5px;
 }
