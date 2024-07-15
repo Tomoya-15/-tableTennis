@@ -5,7 +5,7 @@
     background-image: url(../images/index/takkyu_tabletennis_woman.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     align-items: center;
 }
@@ -223,14 +223,14 @@ img {
 .footer-logo {
     display: block;
     width: 235px;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
-.copyright {
+/* .copyright {
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
-}
+} */
 
 .slideBox {
     height: 500px;
@@ -243,20 +243,20 @@ img {
     opacity: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     left: 0;
     top: 0;
-    -webkit-animation: anime 40s 0s infinite;
-    animation: anime 40s 0s infinite;
+    -webkit-animation: anime 10s 0s infinite;
+    animation: anime 20s 0s infinite;
   }
   
   .item1:nth-of-type(2) {
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
   }
   
-  .item1:nth-of-type(3) {
+  /* .item1:nth-of-type(3) {
     -webkit-animation-delay: 10s;
     animation-delay: 20s;
   }
@@ -264,7 +264,7 @@ img {
   .item1:nth-of-type(4) {
     -webkit-animation-delay: 20s;
     animation-delay: 30s;
-  }
+  } */
   
   /* ふわっとアニメーション */
   @keyframes anime {
