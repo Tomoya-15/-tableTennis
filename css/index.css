@@ -247,8 +247,8 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    -webkit-animation: anime 5s 0s infinite;
-    animation: anime 5s 0s infinite;
+    -webkit-animation: anime 20s 0s infinite;
+    animation: anime 20s 0s infinite;
   }
   
   .item1:nth-of-type(2) {
@@ -263,7 +263,7 @@ img {
   
   .item1:nth-of-type(4) {
     -webkit-animation-delay: 20s;
-    animation-delay: 30s;
+    animation-delay: 20s;
   }
   
   /* ふわっとアニメーション */
