@@ -2,7 +2,7 @@
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/images.jpg);
+    background-image: url(../images/index/takkyu_tabletennis_woman.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -45,6 +45,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 ul, ol {
@@ -193,6 +226,85 @@ img {
 
 .footer-logo {
     display: block;
-    width: 230px;
-    margin-top: 5px;
+    width: 235px;
+    margin-top: 90px;
 }
+
+.copyright {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.slideBox {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* imgのみ */
+  .item1 {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-animation: anime 40s 0s infinite;
+    animation: anime 40s 0s infinite;
+  }
+  
+  .item1:nth-of-type(2) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+  }
+  
+  .item1:nth-of-type(3) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 20s;
+  }
+  
+  .item1:nth-of-type(4) {
+    -webkit-animation-delay: 20s;
+    animation-delay: 30s;
+  }
+  
+  /* ふわっとアニメーション */
+  @keyframes anime {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+      z-index: 9;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes anime {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+      z-index: 9;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
