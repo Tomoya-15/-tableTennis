@@ -42,13 +42,6 @@
     margin-top: 1em;
     font-size: 0.8em;
 }
-/*hover*/
-.media:hover {
-    color: tomato;
-}
-.media:hover .card__thumb {
-    opacity: 0.7;
-}
 @media screen and (min-width: 768px),print {
     .media__body {
         font-size: 16px;
