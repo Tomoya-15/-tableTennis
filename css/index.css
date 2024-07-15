@@ -90,7 +90,7 @@ a {
 }
 
 body {
-    font-family: sans-serif;  
+    font-family: "Noto Serif JP", serif;  
     font-size: 16pt;
     color: #000000;
     line-height: 1;
@@ -188,15 +188,11 @@ img {
     }
 
     .main {
-        padding-top: 50px;;
+        padding-top: 50px;
     }
 
     .footer-logo {
         margin-top: 60px;
-    }
-
-    .copyright {
-        margin-top: 50px;
     }
 
     .toggle-menu-button {

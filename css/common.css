@@ -128,7 +128,7 @@ img {
         color: #ffffff;
         background-color: #736e62;
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         display: none;
     }
 
@@ -142,10 +142,6 @@ img {
 
     .footer-logo {
         margin-top: 60px;
-    }
-
-    .copyright {
-        margin-top: 50px;
     }
 
     .toggle-menu-button {
@@ -162,4 +158,3 @@ img {
         outline: none;
     }
 }
-
